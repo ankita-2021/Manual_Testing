@@ -1,0 +1,30 @@
+1. Project: MERN Chat App
+Objective: To ensure the real-time messaging application functions correctly, providing seamless communication between users.
+
+Test Scenarios & Test Cases:
+Test Scenario	Test Case	Expected Result	Tools Used
+User Registration	Verify user can register with valid details	User is successfully registered	Postman, Browser DevTools
+User Login	Verify login with valid credentials	User is logged in	Postman, TestRail
+Invalid Login	Enter incorrect credentials	Error message displayed	Selenium (for automation if needed)
+Message Sending	Send a message in a chat	Message is delivered instantly	JMeter (for load testing)
+Online Status	Verify user online status updates correctly	Online users are shown	Postman, DevTools
+Message Notifications	Receive a new message notification	Notification appears	Browser DevTools, Bugzilla (for bug tracking)
+Logout	Verify user can successfully log out	User is logged out	TestRail (for test case management)
+Defect Tracking & Reporting:
+Tools Used: JIRA, Bugzilla, Trello
+Issues found during testing are logged and reported.
+Retesting after bug fixes ensures resolution.
+
+2. Project: Employee Contact Manager
+Objective: To validate the accuracy of CRUD operations on employee contacts.
+
+Test Scenarios & Test Cases:
+Test Scenario	Test Case	Expected Result	Tools Used
+Add Contact	Verify adding a new contact	Contact is successfully added	Postman, TestRail
+Edit Contact	Modify contact details	Updated details are saved	Selenium (for UI testing)
+Delete Contact	Remove an existing contact	Contact is deleted	JIRA (for tracking defects)
+Search Contact	Search by name or number	Correct contact is displayed	DevTools, Bugzilla
+User Authentication	Verify login/logout functionality	User can access and exit the system securely	TestRail, JIRA
+Defect Tracking & Reporting:
+Tools Used: JIRA, Bugzilla, Trello
+Any discrepancies in functionality are logged for resolution.
